@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  /* background-image: url("../public/fast-food-doodle.jpg"); */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* background-image: url("../public/fast-food-doodle.avif"); */
+}
+
+.footer-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.developers {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.developer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.developer p {
+  margin: 0 5px;
+}
+
+.linkedin-icon {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.linkedin-icon:hover {
+  color: #0077b5; /* LinkedIn blue color */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.navbar-placeholder {
+  height: 80px; /* Adjust according to the height of your navbar */
+}
+  
